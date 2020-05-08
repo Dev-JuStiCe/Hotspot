@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WindowsFormsApplication2</RootNamespace>
-    <AssemblyName>Free Hotspot</AssemblyName>
+    <AssemblyName>Mr. Fix - Hotspot</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>1.png.ico</ApplicationIcon>
+    <ApplicationIcon>mrfix_rcl_icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -99,6 +99,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.png.ico" />
+    <Content Include="mrfix_rcl_icon.ico" />
+    <None Include="Resources\Peter RGB-01.jpg" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="NATUPNPLib">

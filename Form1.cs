@@ -256,5 +256,10 @@ namespace WindowsFormsApplication2
             notifyIcon1.Visible = false;
             Show();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
